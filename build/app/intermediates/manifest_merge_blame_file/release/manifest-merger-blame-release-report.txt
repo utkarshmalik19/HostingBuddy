@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="in.simplem.scaffold"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <!-- Include required permissions for Google Maps API to run. -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+13-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <application
+25-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:4:4-43:19
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.8.0] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\56dbf97501bfe912154be9eab296ca9b\core-1.8.0\AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:6:8-42
+28        android:label="scaffold" >
+28-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:5:9-33
+29        <meta-data
+29-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:7:8-8:69
+30            android:name="com.google.android.geo.API_KEY"
+30-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:7:19-64
+31            android:value="AIzaSyCo_n4unHZtpdbjQZ99PL-bDvm0QWqR8_4" />
+31-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:8:12-67
+32
+33        <activity
+33-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:9:9-37:20
+34            android:name="in.simplem.scaffold.MainActivity"
+34-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:10:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:13:13-163
+36            android:hardwareAccelerated="true"
+36-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:14:13-47
+37            android:launchMode="singleTop"
+37-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:11:13-43
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:12:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:15:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:20:13-23:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:21:15-70
+49                android:resource="@style/NormalTheme" />
+49-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:22:15-52
+50            <!--
+51                 Displays an Android View that continues showing the launch screen
+52                 Drawable until Flutter paints its first frame, then this splash
+53                 screen fades out. A splash screen is useful to avoid any visual
+54                 gap between the end of Android's launch screen and the painting of
+55                 Flutter's first frame.
+56            -->
+57            <meta-data
+57-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:29:13-32:17
+58                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+58-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:30:15-79
+59                android:resource="@drawable/launch_background" />
+59-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:31:15-61
+60
+61            <intent-filter>
+61-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:33:13-36:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:34:17-68
+62-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:34:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:35:17-76
+64-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:35:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:40:9-42:33
+72            android:name="flutterEmbedding"
+72-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:41:13-44
+73            android:value="2" />
+73-->C:\Users\Utkarsh\AndroidStudioProjects\host-app\android\app\src\main\AndroidManifest.xml:42:13-30
+74
+75        <provider
+75-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+76            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+76-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+77            android:authorities="in.simplem.scaffold.flutter.image_provider"
+77-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+78            android:exported="false"
+78-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+79            android:grantUriPermissions="true" >
+79-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+80            <meta-data
+80-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+82                android:resource="@xml/flutter_image_picker_file_paths" />
+82-->[:image_picker_android] C:\Users\Utkarsh\AndroidStudioProjects\host-app\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+83        </provider> <!-- Needs to be explicitly declared on P+ -->
+84        <uses-library
+84-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+85            android:name="org.apache.http.legacy"
+85-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+86            android:required="false" />
+86-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5145c7005a071c8f57c9bd5ba506fd08\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\19b5127868cd29c5d79b9c615a6ca40a\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\19b5127868cd29c5d79b9c615a6ca40a\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\19b5127868cd29c5d79b9c615a6ca40a\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\19b5127868cd29c5d79b9c615a6ca40a\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\ac1f829f3c702c99c3d262572a90504d\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\ac1f829f3c702c99c3d262572a90504d\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\ac1f829f3c702c99c3d262572a90504d\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+96
+97        <uses-library
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5e3d02b3ec97fd9779d48dcda5965dfb\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+98            android:name="androidx.window.extensions"
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5e3d02b3ec97fd9779d48dcda5965dfb\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+99            android:required="false" />
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5e3d02b3ec97fd9779d48dcda5965dfb\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5e3d02b3ec97fd9779d48dcda5965dfb\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+101            android:name="androidx.window.sidecar"
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5e3d02b3ec97fd9779d48dcda5965dfb\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\Utkarsh\.gradle\caches\transforms-2\files-2.1\5e3d02b3ec97fd9779d48dcda5965dfb\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+103    </application>
+104
+105</manifest>

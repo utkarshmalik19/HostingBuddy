@@ -1,0 +1,43 @@
+name: scaffold
+description: A place to start a production ready app!
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_secure_storage: ^5.0.2
+  flutter_svg: ^0.22.0
+  fl_chart: ^0.55.0
+  google_fonts: ^3.0.1
+  card_swiper: ^2.0.4
+  flutter_markdown: ^0.6.10+2
+  carousel_slider: ^4.1.1
+  google_maps_flutter: ^2.1.8
+  dotted_border: ^2.0.0
+  image_picker: ^0.8.5
+  path_provider: ^2.0.11
+  textfield_tags: ^2.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/navbar/
+    - assets/
+  #   - images/a_dot_ham.jpeg
