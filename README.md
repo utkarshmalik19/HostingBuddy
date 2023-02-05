@@ -1,1 +1,1 @@
-Hosting buddy lets a person rent his space for hosting parties
+Thinnai lets a person rent his space for hosting parties
